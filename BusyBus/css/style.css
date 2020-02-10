@@ -1,0 +1,130 @@
+*, *:before, *:after {
+  box-sizing:border-box;
+}
+
+body {
+  background-color: #a9a9a9;
+  font-size: 12px;
+  width: 100%;
+  /* border-bottom: 300px solid gray;
+  border-bottom-width: 100px; */
+  font-family:roboto;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight:800;
+  text-align:center;
+  padding-bottom: 25px;
+  padding-top:20px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h6{
+  padding: 5px 0 0 365px;
+}
+
+th {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+td {
+  text-align:center;
+  padding-bottom: 14px;
+}
+
+table#table1 {
+  width: 80%;
+  margin-left:15%;
+  margin-right:15%;
+}
+
+table {
+  height: 475px;
+}
+
+#first{
+  width: 350px;
+  height: 34px;
+  position:relative;
+  background: white;
+  margin-left:auto;
+  margin-right:auto;
+  top:35px;
+}
+
+#second {
+  width: 400px;
+  height: 20px;
+  position:absolute;
+  background: white;
+  top: 0;
+}
+
+#third {
+  width: 400px;
+  height: 150px;
+  background: white;
+  position:absolute;
+  top: 650px;
+}
+
+.boxed {
+  background-color:gray;
+  width: 400px;
+  height: 80px;
+}
+
+.fa-search {
+  position:absolute;
+  padding:10px;
+}
+
+.fa-microphone {
+  position:absolute;
+  padding: 10px 0 10px 330px;
+}
+
+.fa-wifi {
+  position:absolute;
+  padding: 5px 0 0 325px;
+}
+
+.fa-battery-three-quarters {
+  position:absolute;
+  padding: 5px 0 0 345px;
+}
+
+.fa-home {
+  position:absolute;
+  padding: 10px 10px 0 40px;
+  font-size:32px;
+}
+
+.fa-heart {
+  position:absolute;
+  padding: 10px 10px 0 185px;
+  font-size: 32px;
+}
+
+.fa-bus {
+  position:absolute;
+  padding: 10px 10px 0 325px;
+  font-size:32px;
+}
+
+@media screen and (min-width: 575px) {
+  table {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+table {
+  width: 50%;
+  }
+}
