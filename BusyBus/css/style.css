@@ -6,8 +6,6 @@ body {
   background-color: #a9a9a9;
   font-size: 12px;
   width: 100%;
-  /* border-bottom: 300px solid gray;
-  border-bottom-width: 100px; */
   font-family:roboto;
 }
 
@@ -17,86 +15,87 @@ h1 {
   text-align:center;
   padding-bottom: 25px;
   padding-top:20px;
+  color:white;
 }
 
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
 h3 {
   font-size: 1.2em;
 }
-
-h6{
+h4 {
+  font-weight:lighter;
+}
+/* h6{
   padding: 5px 0 0 365px;
+  color:white;
+} */
+
+img {
+  width: 400px;
 }
 
-th {
-  font-weight: bold;
-  padding-bottom: 15px;
+.lines {
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  /* remove once add dots? */
 }
 
-td {
-  text-align:center;
-  padding-bottom: 14px;
+.lines h2 {
+  padding-bottom: 5px;
+  display:inline;
 }
 
-table#table1 {
-  width: 80%;
-  margin-left:15%;
-  margin-right:15%;
+.lines h5 {
+  font-size:1.8em;
+  font-weight:bold;
+  float:right;
 }
 
-table {
-  height: 475px;
+.lines h6 {
+  color:black;
+  font-size:1em;
+  float:right;
 }
 
-#first{
-  width: 350px;
-  height: 34px;
-  position:relative;
-  background: white;
-  margin-left:auto;
-  margin-right:auto;
-  top:35px;
-}
-
-#second {
+#banner {
   width: 400px;
   height: 20px;
   position:absolute;
-  background: white;
+  background: #2140AB;
   top: 0;
 }
 
-#third {
+#tabBar {
   width: 400px;
-  height: 150px;
+  height: 50px;
   background: white;
   position:absolute;
-  top: 650px;
+  top: 713px;
 }
-
+#container {
+  display:flex;
+  width:100%;
+}
 .boxed {
-  background-color:gray;
+  background-color: #345EEB;
   width: 400px;
   height: 80px;
-}
-
-.fa-search {
-  position:absolute;
-  padding:10px;
-}
-
-.fa-microphone {
-  position:absolute;
-  padding: 10px 0 10px 330px;
 }
 
 .fa-wifi {
   position:absolute;
   padding: 5px 0 0 325px;
+  color: white;
 }
 
 .fa-battery-three-quarters {
   position:absolute;
   padding: 5px 0 0 345px;
+  color: white;
 }
 
 .fa-home {
