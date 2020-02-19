@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #a9a9a9;
+  background-color: white;
   font-size: 12px;
   width: 100%;
   font-family:roboto;
@@ -22,16 +22,17 @@ h2 {
   font-size: 1.8em;
   font-weight: bold;
 }
+
 h3 {
   font-size: 1.2em;
 }
 h4 {
   font-weight:lighter;
 }
-/* h6{
+h6{
   padding: 5px 0 0 365px;
-  color:white;
-} */
+  color: white;
+}
 
 img {
   width: 400px;
@@ -44,22 +45,16 @@ img {
   /* remove once add dots? */
 }
 
-.lines h2 {
-  padding-bottom: 5px;
-  display:inline;
+.lines:hover {
+  background-color:#a9a9a9
 }
 
-.lines h5 {
-  font-size:1.8em;
-  font-weight:bold;
-  float:right;
+
+.eta h5 {
+  font-size:1.2em;
+  font-weight:lighter;
 }
 
-.lines h6 {
-  color:black;
-  font-size:1em;
-  float:right;
-}
 
 #banner {
   width: 400px;
@@ -76,10 +71,7 @@ img {
   position:absolute;
   top: 713px;
 }
-#container {
-  display:flex;
-  width:100%;
-}
+
 .boxed {
   background-color: #345EEB;
   width: 400px;
