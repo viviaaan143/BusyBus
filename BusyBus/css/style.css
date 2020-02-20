@@ -42,6 +42,7 @@ h6{
 }
 img {
   width: 400px;
+  padding-top: 80px;
 }
 .lines {
   padding: 20px;
@@ -61,21 +62,20 @@ img {
 #banner {
   width: 400px;
   height: 20px;
-  position:absolute;
   background: #2140AB;
-  top: 0;
 }
 #tabBar {
   width: 400px;
   height: 50px;
   background: white;
-  position:absolute;
-  top: 1150px;
+  position:fixed;
+  top: 663px;
 }
 .boxed {
   background-color: #345EEB;
   width: 400px;
   height: 80px;
+  position:fixed;
 }
 .fa-wifi {
   position:absolute;
