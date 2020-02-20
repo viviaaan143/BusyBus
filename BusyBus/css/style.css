@@ -11,6 +11,9 @@ body {
   padding-left: 10px;
   padding-bottom: 5px;
 }
+.container {
+  width:400px;
+}
 h1 {
   font-size: 1.8em;
   font-weight:800;
@@ -67,7 +70,7 @@ img {
   height: 50px;
   background: white;
   position:absolute;
-  top: 1100px;
+  top: 1150px;
 }
 .boxed {
   background-color: #345EEB;
