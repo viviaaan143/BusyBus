@@ -5,7 +5,7 @@ body {
   background-color: #d3d3d3;
   font-size: 12px;
   width: 100%;
-  font-family:'roboto';
+  font-family:'Open Sans';
 }
 .content {
   padding-left: 10px;
@@ -20,6 +20,7 @@ h1 {
   text-align:center;
   padding-bottom: 25px;
   padding-top:20px;
+  padding-right:25px;
   color:white;
 }
 h2 {
@@ -49,7 +50,6 @@ img {
   width: 100%;
   display: inline-block;
   border-bottom: 1px solid black;
-  /* remove once add dots? */
 }
 .lines:hover {
   background-color:#A9a9a9
@@ -69,13 +69,19 @@ img {
   height: 50px;
   background: white;
   position:fixed;
-  top: 663px;
+  top: 675px;
 }
 .boxed {
   background-color: #345EEB;
   width: 400px;
   height: 80px;
   position:fixed;
+}
+.fa-chevron-left {
+color:white;
+font-size: 26px;
+padding: 18px 0 15px 20px;
+float:left;
 }
 .fa-wifi {
   position:absolute;
